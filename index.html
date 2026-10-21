@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henry Kirby | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo">HK</a>
+      <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+      <ul id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div id="sketch-holder"></div>
+      <div class="hero-text">
+        <h1>Henry Kirby</h1>
+        <p>Creative Computing student at SETU. Aspiring web developer.</p>
+        <a href="#contact" class="button">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm a first-year Creative Computing student at South East Technological University. I enjoy
+        building things that look good and are easy to use, and I'm learning web development,
+        creative programming and user experience design. Outside college I captain SETU's
+        competitive Counter-Strike 2 team.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>p5.js</li>
+        <li>UX Design</li>
+        <li>Git &amp; GitHub</li>
+        <li>Teamwork</li>
+        <li>Leadership</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article class="card">
+        <h3>Team Captain, SETU Counter-Strike 2</h3>
+        <p>Lead a five-player team in open competitive matches, setting strategy and reviewing performance.</p>
+      </article>
+      <article class="card">
+        <h3>Electrician</h3>
+        <p>Three months of hands-on electrical work, solving problems safely and working to deadlines.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:20122180@setu.ie">20122180@setu.ie</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/henry-kirby">linkedin.com/in/henry-kirby</a></p>
+      <p>GitHub: <a href="https://github.com/Kirbus77">github.com/Kirbus77</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Henry Kirby</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
